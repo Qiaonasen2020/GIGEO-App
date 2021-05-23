@@ -1,0 +1,58 @@
+// Imports
+
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+//vendors
+@import 'vendors/bootstrap-4.6.0/bootstrap.scss';
+
+//base
+@import 'base/base';
+@import 'base/normalize';
+@import 'base/reset';
+@import 'base/typography';
+
+
+//components
+@import 'components/buttons';
+@import 'components/inputs';
+@import 'components/thumbnails';
+
+//layout
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/main-section';
+@import 'layout/footer';
+@import 'layout/card';
+@import 'layout/grid';
+
+//pages
+
+//themes
+
+
+//Breakpoints
+$min-xs: 1px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+
+$max-xs: 575px;
+$max-sm: 767px;
+$max-md: 991px;
+$max-lg: 1199px;
+$max-xl: 1399px;
+$max-xxl: 1800px;
+
+$breakpoints: (
+    'xs' : (min-width: $min-xs),
+    'sm' : (min-width: $min-sm),
+    'md' : (min-width: $min-md),
+    'lg' : (min-width: $min-lg),
+    'xl' : (min-width: $min-xl),
+    'xxl': (min-width: $min-xxl)
+
+) !default;
